@@ -22,19 +22,7 @@ A comparação é baseada em padrões de engenharia de sistemas agentic e no est
 
 ## Arquitetura conceitual — agente generalista
 
-Usuário / Ambiente
-│
-▼
-Agente autônomo
-│
-▼
-LLM generalista
-│
-▼
-Ferramentas e APIs
-│
-▼
-Ações e publicações
+Usuário / Ambiente → Agente autônomo → LLM generalista → Ferramentas e APIs → Ações e publicações
 
 Características:
 
@@ -45,22 +33,7 @@ Características:
 
 ## Arquitetura conceitual — agente contextualizado
 
-Usuário
-│
-▼
-Interface de conversa
-│
-▼
-Camada de contexto e regras
-│
-▼
-Agente controlado
-│
-▼
-LLM generalista
-│
-▼
-Ferramentas autorizadas
+Usuário → Interface de conversa → Camada de contexto e regras → Agente controlado → LLM generalista → Ferramentas autorizadas
 
 Características:
 
