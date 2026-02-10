@@ -7,14 +7,10 @@ Este repositório apresenta uma análise arquitetural comparativa entre:
 
 O objetivo não é avaliar pessoas, projetos ou intenções, e sim discutir padrões de engenharia que tornam agentes mais previsíveis, seguros e alinhados ao domínio de negócio.
 
----
-
 ## Premissas e método
 
 - Não inferimos implementação interna de terceiros.
 - A análise se baseia em comportamento observável, riscos típicos de sistemas agentic e boas práticas de arquitetura de contexto e governança.
-
----
 
 ## O ponto central
 
@@ -24,8 +20,6 @@ O risco aparece quando um agente é colocado em operação sem:
 - contexto de domínio explícito
 - regras de comportamento
 - limites operacionais e de ação
-
----
 
 ## Conteúdo
 
@@ -38,8 +32,6 @@ O risco aparece quando um agente é colocado em operação sem:
 - `decisions.md` — decisões arquiteturais e trade-offs
 - `limitations.md` — limites desta análise
 - `glossary.md` — termos e definições
-
----
 
 ## Nota sobre código
 
